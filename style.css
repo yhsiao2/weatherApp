@@ -33,15 +33,22 @@ body{
 
 }
 
-.degree-section, .degree-feels{
+.degree-section{
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
+.degree-feels{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 4fr;
+    padding-left: 60px;
+}
+
 .degree-section span{
     margin: 10px;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .degree-section h2{
@@ -51,13 +58,18 @@ body{
 
 .degree-feels p{
     margin: 2px;
-    font-size: 15px;
+    font-size: 17px;
+    cursor: pointer;
 }
 
 .degree-feels span{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .icon-image {
     display: none;
+}
+
+.temperature-feelslike, .humidity, .PM{
+    text-align: right;
 }
