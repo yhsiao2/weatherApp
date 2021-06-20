@@ -2,7 +2,7 @@
 This is a project about creating a weather app by pulling data from an API. Which openweathermap.org was used.
 
 ##Usage
-Since the web app requires an API key to work, please either input your own API key from openweathermap.org
+Since the web app requires an API key to work, please input your own API key from openweathermap.org
 Step 1: create a config.js file in the same directory as your index.html
 step 2: paste the following code into config.js
 
